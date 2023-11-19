@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 20px;
+}
+.logoprin{
+    border-radius: 50%;
+    width: 50px;
+}
+.enlacesclass{
+    background-color: rgb(255, 208, 207);
+    list-style: none;
+    margin: 20px auto;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    border-radius: 15%;
+}
+.enlacesclass li{
+    display: inline-block;
+}
+.enlacesclass li a{
+    padding: 20px;
+    margin: 10px;
+    color: rgb(148, 123, 117) ;
+    text-decoration: none;
+    display: inline-block;
+}
+.enlacesclass li a:hover{
+    color: brown;
+    background-color: lightpink;
+    border-radius: 10%;
+}
+.container{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(251, 225, 224);
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.productos-principales{
+    margin: 20px;
+    padding: 30px ;
+}
+.productos-principales div{
+    display: inline-block;
+    text-align: center;
+    margin: 70px;
+    font-family: 'DM Sans', sans-serif;
+}
+.galletaprin{
+    text-align: center;
+}
+.galletaprin img{
+    width: 15rem;
+    display: inline-block;
+    border-radius: 10%;
+}
+.regalosprin{
+    text-align: center;
+}
+.regalosprin img{
+    width: 20rem;
+    display: inline-block;
+    border-radius: 10%;
+}
+.tortaprin{
+    text-align: right;
+}
+.tortaprin img{
+    width: 15rem;
+    display: inline-block;
+    border-radius: 10%;
+}
+.galletas-pages{
+    margin: 20px;
+    padding: 30px;
+    }
+.galletas-pages-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+.torta-de-galleta-pages{
+    margin: 20px;
+     padding: 30px;
+}
+ .torta-de-galleta-pages div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .torta-galleta-grande{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .caja-de-10-galletas-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .caja-de-10-galletas{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .caja-de-12-galletas-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .caja-de-12-galletas{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .caja-de-15-galletas-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .caja-de-15-galletas{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .caja-de-20-galletas-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .caja-de-20-galletas{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .galleta-monstruo-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .galleta-monstruo{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .heart-cookie-cake-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .heart-cookie-cake{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .galleta-flor-gigante-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .galleta-flor-gigante{
+    width: 18rem;
+    border-radius: 10%;
+ }
+ .torta-galleta-peque{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .torta-galleta-peque{
+    width: 18rem;
+    border-radius: 10%;
+ }
+.donde-estamostext{
+    font-family: 'DM Sans', sans-serif;
+}
+.mapa{
+    text-align: center;
+}
+.sobre-nosotrosdiv{
+    display: inline-block;
+
+}
+.sobrenostext{
+    font-family: 'DM Sans', sans-serif;
+    overflow: auto;
+}
+.dueña{
+    width: 40rem;
+    text-align: center;
+}
+.titps{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.productos {
+margin: 20px;
+padding: 30px;
+}
+.productos div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+.galleta-individual{
+    width: 18rem;
+    border-radius: 10%;
+}
+.caja3galletas{
+    width: 18rem;
+    border-radius: 10%;
+}
+.caja6galletas{
+    width: 18rem;
+    border-radius: 10%;
+}
+.caja10corazones{
+    width: 18rem;
+    border-radius: 10%;
+}
+
+.footer{
+    background-color: rgb(255, 208, 207);
+    margin: 20px 0;
+}
+.whatslink{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+.whatsimg{
+    width: 5rem;
+    border-radius: 30%;
+}
+
+.iglink{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+.igimg{
+    width: 5rem;
+    border-radius: 30%;
+}
+.tiktoklink{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+.tiktokimg{
+    width: 5rem;
+    border-radius: 30%;
+}
+
+
+
+
