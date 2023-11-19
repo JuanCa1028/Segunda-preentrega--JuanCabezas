@@ -3,7 +3,7 @@
     padding: 0;
 }
 nav{
-    padding: 20px;
+    padding: 50px;
 }
 .logoprin{
     border-radius: 50%;
@@ -15,7 +15,7 @@ nav{
     margin: 20px auto;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
-    border-radius: 15%;
+    border-radius: 7%;
 }
 .enlacesclass li{
     display: inline-block;
@@ -233,14 +233,16 @@ padding: 30px;
 .footer{
     background-color: rgb(255, 208, 207);
     margin: 20px 0;
+    display: flex;
+    justify-content: end;
 }
 .whatslink{
     text-decoration: none;
     font-family: 'DM Sans', sans-serif;
 }
 .whatsimg{
-    width: 5rem;
-    border-radius: 30%;
+    width: 4rem;
+    border-radius: 20%;
 }
 
 .iglink{
@@ -248,7 +250,7 @@ padding: 30px;
     font-family: 'DM Sans', sans-serif;
 }
 .igimg{
-    width: 5rem;
+    width: 4rem;
     border-radius: 30%;
 }
 .tiktoklink{
@@ -256,7 +258,7 @@ padding: 30px;
     font-family: 'DM Sans', sans-serif;
 }
 .tiktokimg{
-    width: 5rem;
+    width: 4rem;
     border-radius: 30%;
 }
 
