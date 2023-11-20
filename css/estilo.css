@@ -42,6 +42,15 @@ nav{
 body{
     background-color: rgb(251, 225, 224);
 }
+.centrado{
+    position: absolute;
+    opacity: 80%;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    }
 h1{
     font-family: 'DM Sans', sans-serif;
     text-decoration: none;
@@ -58,6 +67,8 @@ h1{
     font-family: 'DM Sans', sans-serif;
 }
 .galletaprin{
+    position: relative;
+    display: inline-block;
     text-align: center;
 }
 .galletaprin img{
@@ -66,6 +77,8 @@ h1{
     border-radius: 10%;
 }
 .regalosprin{
+    position: relative;
+    display: inline-block;
     text-align: center;
 }
 .regalosprin img{
@@ -73,15 +86,20 @@ h1{
     height: 15rem;
     display: inline-block;
     border-radius: 10%;
+    position: relative;
+    text-align: center;
 }
 .tortaprin{
-    text-align: right;
+    position: relative;
+display: inline-block;
+text-align: center;
 }
 .tortaprin img{
     width: 15rem;
     display: inline-block;
     border-radius: 10%;
 }
+
 .galletas-pages{
     margin: 20px;
     padding: 30px;
@@ -275,34 +293,65 @@ padding: 30px;
     width: 4rem;
     border-radius: 30%;
 }
-@media only screen and (min-width: 710px) and (max-width: 800px){
+@media only screen and (min-width: 300px) and (max-width: 414px){
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 208, 207);
+    }
+    
     .productos-principales div{
         display: inline-block;
         text-align: center;
-        margin: 2.5px;
+        margin: 1px;
         font-family: 'DM Sans', sans-serif;
     }
+    .galletaprin{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    }
     .galletaprin img{
-        width: 8.5rem;
+        width: 5rem;
         display: inline-block;
         border-radius: 10%;
+    }
+    .regalosprin{
+        position: relative;
+    display: inline-block;
+    text-align: center;
     }
     .regalosprin img{
-        width: 8.5rem;
-        height: 8.5rem;
+        width: 5rem;
+        height: 5rem;
         display: inline-block;
         border-radius: 10%;
     }
+    .tortaprin{
+        position: relative;
+    display: inline-block;
+    text-align: center;
+    }
     .tortaprin img{
-        width: 8.5rem;
+        width: 5rem;
         display: inline-block;
         border-radius: 10%;
+    }
+    .centrado{
+    position: absolute;
+    opacity: 80%;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     }
     .productos div{
         display: inline-block;
         text-align: center;
-        margin: 4px;
+        margin: 3px;
         font-family: 'DM Sans', sans-serif;
+        max-width: 80px;
     }
     .galletas-pages{
         margin: 20px;
@@ -313,59 +362,59 @@ padding: 30px;
          padding: 4px;
     }
     .galleta-individual{
-        width: 12rem;
         border-radius: 10%;
+        width: 5rem;
     }
     .caja3galletas{
-        width: 12rem;
         border-radius: 10%;
+        width: 5rem;
     }
     .caja6galletas{
-        width: 12rem;
         border-radius: 10%;
+        width: 5rem;
     }
     .caja-de-10-galletas{
-        width: 12rem;
         border-radius: 10%;
-     }
+        width: 5rem;
+    }
      .caja-de-12-galletas{
-        width: 12rem;
-        border-radius: 10%;
-     }
+         border-radius: 10%;
+         width: 5rem;
+        }
      .caja-de-15-galletas{
-        width: 12rem;
-        border-radius: 10%;
-     }
+         border-radius: 10%;
+         width: 5rem;
+        }
      .caja-de-20-galletas{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
      .galleta-monstruo{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
     .caja10corazones{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
     }
     .torta-galleta-grande{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
     .torta-galleta-peque{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
      .monstruo-de-nutella-de-4{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
      .heart-cookie-cake{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
      .galleta-flor-gigante{
-        width: 12rem;
+        width: 5rem;
         border-radius: 10%;
      }
 
