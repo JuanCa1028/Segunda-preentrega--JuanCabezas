@@ -256,7 +256,7 @@ padding: 30px;
 }
 .whatsimg{
     width: 4rem;
-    border-radius: 20%;
+    border-radius: 30%;
 }
 
 .iglink{
@@ -275,7 +275,102 @@ padding: 30px;
     width: 4rem;
     border-radius: 30%;
 }
+@media only screen and (min-width: 710px) and (max-width: 800px){
+    .productos-principales div{
+        display: inline-block;
+        text-align: center;
+        margin: 2.5px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .galletaprin img{
+        width: 8.5rem;
+        display: inline-block;
+        border-radius: 10%;
+    }
+    .regalosprin img{
+        width: 8.5rem;
+        height: 8.5rem;
+        display: inline-block;
+        border-radius: 10%;
+    }
+    .tortaprin img{
+        width: 8.5rem;
+        display: inline-block;
+        border-radius: 10%;
+    }
+    .productos div{
+        display: inline-block;
+        text-align: center;
+        margin: 4px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .galletas-pages{
+        margin: 20px;
+        padding: 4px;
+        }
+    .torta-de-galleta-pages{
+        margin: 20px;
+         padding: 4px;
+    }
+    .galleta-individual{
+        width: 12rem;
+        border-radius: 10%;
+    }
+    .caja3galletas{
+        width: 12rem;
+        border-radius: 10%;
+    }
+    .caja6galletas{
+        width: 12rem;
+        border-radius: 10%;
+    }
+    .caja-de-10-galletas{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .caja-de-12-galletas{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .caja-de-15-galletas{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .caja-de-20-galletas{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .galleta-monstruo{
+        width: 12rem;
+        border-radius: 10%;
+     }
+    .caja10corazones{
+        width: 12rem;
+        border-radius: 10%;
+    }
+    .torta-galleta-grande{
+        width: 12rem;
+        border-radius: 10%;
+     }
+    .torta-galleta-peque{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .monstruo-de-nutella-de-4{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .heart-cookie-cake{
+        width: 12rem;
+        border-radius: 10%;
+     }
+     .galleta-flor-gigante{
+        width: 12rem;
+        border-radius: 10%;
+     }
 
+
+}
 
 
 
