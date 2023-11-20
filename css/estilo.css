@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(255, 208, 207);
 }
+
 nav{
     padding: 50px;
+    background-color: rgb(255, 208, 207);
 }
 .logoprin{
     border-radius: 50%;
@@ -66,7 +69,8 @@ h1{
     text-align: center;
 }
 .regalosprin img{
-    width: 20rem;
+    width: 15rem;
+    height: 15rem;
     display: inline-block;
     border-radius: 10%;
 }
@@ -152,6 +156,16 @@ h1{
     width: 18rem;
     border-radius: 10%;
  }
+ .monstruo-de-nutella-de-4-div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+ }
+ .monstruo-de-nutella-de-4{
+    width: 18rem;
+    border-radius: 10%;
+ }
  .heart-cookie-cake-div{
     display: inline-block;
     text-align: center;
@@ -172,7 +186,7 @@ h1{
     width: 18rem;
     border-radius: 10%;
  }
- .torta-galleta-peque{
+ .torta-galleta-peque-div{
     display: inline-block;
     text-align: center;
     margin: 10px;
