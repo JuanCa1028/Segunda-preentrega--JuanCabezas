@@ -252,13 +252,13 @@ text-align: center;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
-    overflow: hidden; /* Para manejar imágenes que puedan ser más grandes que el contenedor */
+    overflow: hidden; 
   }
 
   .menu-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Asegura que las esquinas de la imagen se vean redondeadas */
+    border-radius: 8px;
   }
 .titps{
     font-family: Arial, Helvetica, sans-serif ;
