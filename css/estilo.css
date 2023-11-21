@@ -221,16 +221,20 @@ text-align: center;
     text-align: center;
 }
 .sobre-nosotrosdiv{
-    display: inline-block;
+    float: left;
+    margin: 10px;
 
 }
 .sobrenostext{
     font-family: 'DM Sans', sans-serif;
-    overflow: auto;
+    overflow: auto; 
+    display: inline-block;
+    position: static;
+
 }
 .dueña{
     width: 40rem;
-    text-align: center;
+    border-radius: 5%;
 }
 .titps{
     font-family: Arial, Helvetica, sans-serif ;
@@ -264,7 +268,8 @@ padding: 30px;
 
 .footer{
     background-color: rgb(255, 208, 207);
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: end;
 }
@@ -417,6 +422,17 @@ padding: 30px;
         width: 5rem;
         border-radius: 10%;
      }
+     .mapa{
+        border-radius: 10%;
+     }
+    .dueña{
+        width: 22.8rem;
+        border-radius: 5%;
+    }
+
+     .footer{
+        max-height: 20px;
+          }
 
 
 }
