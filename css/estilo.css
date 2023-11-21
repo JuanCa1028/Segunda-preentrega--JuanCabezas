@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(255, 208, 207);
+    box-sizing: border-box;
 }
 
 nav{
@@ -217,6 +218,10 @@ text-align: center;
 .donde-estamostext{
     font-family: 'DM Sans', sans-serif;
 }
+.carousel-inner{
+  max-width: 300px;
+  margin: 0 auto;
+}
 .mapa{
     text-align: center;
 }
@@ -229,13 +234,32 @@ text-align: center;
     font-family: 'DM Sans', sans-serif;
     overflow: auto; 
     display: inline-block;
-    position: static;
 
 }
 .dueña{
     width: 40rem;
     border-radius: 5%;
 }
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 10px; /* Espacio entre elementos */
+    padding: 20px;
+  }
+
+  .menu-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden; /* Para manejar imágenes que puedan ser más grandes que el contenedor */
+  }
+
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Asegura que las esquinas de la imagen se vean redondeadas */
+  }
 .titps{
     font-family: Arial, Helvetica, sans-serif ;
 }
@@ -422,6 +446,7 @@ padding: 30px;
         width: 5rem;
         border-radius: 10%;
      }
+ 
      .mapa{
         border-radius: 10%;
      }
